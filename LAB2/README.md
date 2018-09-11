@@ -8,11 +8,14 @@
 Create a data base located physic in folder MyDocuments\Data, setting a 16MD primary base file extension with the 128 MD increment limit and the 64MD log with the 1024MB increment limit. For secondary files, define a new Default Filegroup, setting the 64MB of secondary files with the limit of 1024MB.
 
 ![lab2_ex1](https://user-images.githubusercontent.com/24621285/45372266-383df680-b5f5-11e8-807f-0aa615fe2e32.PNG)
-*Task NR.1 - first data base*
+*Picture NR.1 - first data base*
 
 
 ## Task 2
 Create a database where the log file is physically placed on the MyDocuments \ Log map, the log file name in the operating system environment must be different from the logical one defined in the physical schema. It is important for the database to become obsolete from the logical one defined in the physical scheme. It is important that the database created is compatible with MS SQL Server 2017 and is accessible to only one user within a time frame.
+
+![lab2_ex2](https://user-images.githubusercontent.com/24621285/45373112-468d1200-b5f7-11e8-9449-771d69439491.PNG)
+*Picture Nr.2 - second data base*
 
 ## Task 3
 
