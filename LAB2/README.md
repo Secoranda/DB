@@ -13,8 +13,7 @@ Create a data base located physic in folder MyDocuments\Data, setting a 16MD pri
 
 ## Task 2
 Create a database where the log file is physically placed on the MyDocuments \ Log map, the log file name in the operating system environment must be different from the logical one defined in the physical schema. It is important for the database to become obsolete from the logical one defined in the physical scheme. It is important that the database created is compatible with MS SQL Server 2017 and is accessible to only one user within a time frame.
-
-![lab2_ex2](https://user-images.githubusercontent.com/24621285/45373112-468d1200-b5f7-11e8-9449-771d69439491.PNG)
+![labex2](https://user-images.githubusercontent.com/24621285/45373885-2a8a7000-b5f9-11e8-88c0-283ee5dacbc5.PNG)
 \
 *Picture Nr.2 - second data base*
 
@@ -51,3 +50,13 @@ Create the database maintenance plan built in task 2. The name of the plan will 
 ![lab2_ex4_3](https://user-images.githubusercontent.com/24621285/45373382-ff535100-b5f7-11e8-9701-40c15e0af417.PNG)
 \
 *Picture NR.4.3 - Maintenance plan execution report*
+
+
+# Conclusion
+In this laboratory work were created 2 data bases with parameters given in the task 1 and task 2, on which were applied 2 maintenance plans:
+
+![lab2_ex2](https://user-images.githubusercontent.com/24621285/45373112-468d1200-b5f7-11e8-9449-771d69439491.PNG)
+\
+*Picture Nr.5 - Created data bases*
+
+
