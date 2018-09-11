@@ -1,4 +1,4 @@
-# Laboratory work Nr.2 "Creating and Maintaining the Database"
+# Laboratory Nr.2 "Creating and Maintaining the Database"
 ## Objectives
 1. Instalation of the software
 2. Ability to work with database software
@@ -59,4 +59,7 @@ In this laboratory work were created 2 data bases with parameters given in the t
 \
 *Picture Nr.5 - Created data bases*
 
+![exa2](https://user-images.githubusercontent.com/24621285/45374280-417d9200-b5fa-11e8-93c5-f9cd5723e49b.PNG)
+\
+*Picture Nr.6 -  Maintenance plans*
 
