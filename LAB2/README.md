@@ -45,7 +45,7 @@ Create the database maintenance plan built in task 2. The name of the plan will 
 
 ![lab2_ex4_2](https://user-images.githubusercontent.com/24621285/45373381-ff535100-b5f7-11e8-9794-2cf7b7922122.PNG)
 \
-*Picture NR.4.3 - Maintenance plan execution*
+*Picture NR.4.2 - Maintenance plan execution*
 
 ![lab2_ex4_3](https://user-images.githubusercontent.com/24621285/45373382-ff535100-b5f7-11e8-9701-40c15e0af417.PNG)
 \
@@ -57,9 +57,9 @@ In this laboratory work were created 2 data bases with parameters given in the t
 
 ![lab2_ex2](https://user-images.githubusercontent.com/24621285/45373112-468d1200-b5f7-11e8-9449-771d69439491.PNG)
 \
-*Picture Nr.5 - Created data bases*
+*Picture Nr.5.1 - Created data bases*
 
 ![exa2](https://user-images.githubusercontent.com/24621285/45374280-417d9200-b5fa-11e8-93c5-f9cd5723e49b.PNG)
 \
-*Picture Nr.6 -  Maintenance plans*
+*Picture Nr.5.2 -  Maintenance plans*
 
