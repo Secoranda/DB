@@ -1,6 +1,6 @@
 # Laboratory work Nr.1
 ## Description 
-This labboratory work is a launch in domain of working with database softwares. The one will be used further will be Microsoft SQL Server 2017.
+This laboratory work is a launch in domain of working with database softwares. The one will be used further will be Microsoft SQL Server 2017.
 
 ## Laboratory Requirements
 1. Installing SQL Server and SSMS;
