@@ -1,5 +1,6 @@
 
-# Laboratory Nr.3 "Creating and Modifying Tables in SQL Server Management Studio"
+# Laboratory Nr.3 
+# "Creating and Modifying Tables in SQL Server Management Studio"
 ## Objectives
 1. Defining columns and setting their basic properties;
 2. Setting expanded column properties;
