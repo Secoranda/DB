@@ -43,7 +43,7 @@ Answer:
 
 ![lab3_5](https://user-images.githubusercontent.com/24621285/45639197-fced6d00-bab7-11e8-8053-9a414fa5e603.PNG)
 \
-*Picture Nr.2.2 - Table 1 (Groups)*
+*Picture Nr.2.2 - Table 2 (Groups)*
 
 ## Task 4
 Insert the records into the respective database tables.
@@ -56,7 +56,7 @@ Answer:
 \
 ![lab3_2](https://user-images.githubusercontent.com/24621285/45639194-fc54d680-bab7-11e8-9f3d-fbcdc675a029.PNG)
 \
-*Picture Nr.3.2 - Table 1 (Groups)*
+*Picture Nr.3.2 - Table 2 (Groups)*
 
 ## Conclusion
 In this laboratory work was created 2 data bases and were inserted the needed data:
