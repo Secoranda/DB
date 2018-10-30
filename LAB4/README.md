@@ -26,7 +26,13 @@ To obtain the list of disciplines (Discipline) supported by students with the av
 \
 Result:
 \
-
+![3](https://user-images.githubusercontent.com/24621285/47744278-a2842680-dc89-11e8-9977-06978301e3f4.PNG)
+\
+*Picture Nr.3 - code for question 23*
+![4](https://user-images.githubusercontent.com/24621285/47744280-a31cbd00-dc89-11e8-9f9e-346d7fbad4f3.PNG)
+\
+*Picture Nr.4 - displayed table with tuples*
+\
 
 ## Task 3 (Question - 25)
 
@@ -36,16 +42,11 @@ Result:
 \
 ![5](https://user-images.githubusercontent.com/24621285/47744269-a0ba6300-dc89-11e8-978d-15bed07ec61f.PNG)
 \
-*Picture Nr.3 - code for question 25*
+*Picture Nr.5 - code for question 25*
 \
 ![6](https://user-images.githubusercontent.com/24621285/47744273-a1eb9000-dc89-11e8-80de-15bec021c9b6.PNG)
 \
-*Picture Nr.4 - displayed table with tuples*
+*Picture Nr.6 - displayed table with tuples*
 \
 
-
-
-
-
-## Conclusion
 
