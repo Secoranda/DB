@@ -13,6 +13,7 @@
 Display the list of students whose name ends in "u"
 \
 Result:
+\
 ![1](https://user-images.githubusercontent.com/24621285/47744274-a2842680-dc89-11e8-986d-2f3b192e4f48.PNG)
 \
 *Picture Nr1. - code for question number 5*
@@ -29,10 +30,11 @@ Result:
 ![3](https://user-images.githubusercontent.com/24621285/47744278-a2842680-dc89-11e8-9977-06978301e3f4.PNG)
 \
 *Picture Nr.3 - code for question 23*
+\
 ![4](https://user-images.githubusercontent.com/24621285/47744280-a31cbd00-dc89-11e8-9f9e-346d7fbad4f3.PNG)
 \
 *Picture Nr.4 - displayed table with tuples*
-\
+There are no tuples because average mark on examn is not more than 7. 
 
 ## Task 3 (Question - 25)
 
@@ -47,6 +49,6 @@ Result:
 ![6](https://user-images.githubusercontent.com/24621285/47744273-a1eb9000-dc89-11e8-80de-15bec021c9b6.PNG)
 \
 *Picture Nr.6 - displayed table with tuples*
-\
+
 
 
