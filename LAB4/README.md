@@ -34,6 +34,7 @@ Result:
 ![4](https://user-images.githubusercontent.com/24621285/47744280-a31cbd00-dc89-11e8-9f9e-346d7fbad4f3.PNG)
 \
 *Picture Nr.4 - displayed table with tuples*
+\
 There are no tuples because average mark on examn is not more than 7. 
 
 ## Task 3 (Question - 25)
