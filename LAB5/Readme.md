@@ -27,7 +27,8 @@ print @N3;
 print 'Mai mare =' + cast(@mai_mare as varchar(2));
 ```
 Output:
-![ex1](https://user-images.githubusercontent.com/24621285/48149419-adac0780-e2c4-11e8-8220-e07e91a420e5.PNG)
+
+![1](https://user-images.githubusercontent.com/24621285/48149530-fbc10b00-e2c4-11e8-92ac-208627b56646.PNG)
 
 2. Display the first 10 rows of the students' marks on the first evaluation on Databases course, except for marks as 6 and 8
 
@@ -56,6 +57,7 @@ select  top 10 Nume_Student, Prenume_Student, Nota
 ```
 
 Output:
+
 ![2](https://user-images.githubusercontent.com/24621285/48149420-ae449e00-e2c4-11e8-8ceb-8d8048faed86.PNG)
 
 3. Rewrite the 1st task using CASE:
@@ -84,6 +86,7 @@ PRINT @N3;
 PRINT 'Mai mare = ' + CAST(@mai_mare AS VARCHAR(2)); 
 ```
 Output:
+
 ![4](https://user-images.githubusercontent.com/24621285/48149423-ae449e00-e2c4-11e8-9215-374cd278e125.PNG)
 
 4.Rewrite the 1st and 2nd tasks with try/catch blocks and RAISERROR:
@@ -125,6 +128,7 @@ PRINT 'Mai mare = ' + CAST(@MAI_MARE AS VARCHAR(20));
 ```
 
 Output:
+
 ![3](https://user-images.githubusercontent.com/24621285/48149422-ae449e00-e2c4-11e8-8210-236ddb993736.PNG)
 
 4.2 TASK TWO 
