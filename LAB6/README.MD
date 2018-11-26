@@ -17,7 +17,11 @@ WHERE Adresa_Postala_Profesor IS NULL;
 SELECT * FROM profesori
 
 ```
+
 Result:
+
+![one](https://user-images.githubusercontent.com/24621285/49031299-2c32f100-f16f-11e8-9054-549bf5579d9c.PNG)
+
 
 ## Task 2
 Modify the table named "grupe" according to the following conditions:
@@ -36,6 +40,8 @@ SELECT Cod_Grupa
 FROM grupe
 ```
 Result:
+
+![two](https://user-images.githubusercontent.com/24621285/49031297-2b9a5a80-f16f-11e8-81cf-98de6b87f995.PNG)
 
 
 ## Task 3
@@ -69,23 +75,11 @@ FROM grupe
 ```
 Result:
 
+![three 1](https://user-images.githubusercontent.com/24621285/49031295-2b9a5a80-f16f-11e8-9442-1b361a8ba1bf.PNG)
+![three 2](https://user-images.githubusercontent.com/24621285/49031296-2b9a5a80-f16f-11e8-9a7a-3e4dd379af1c.PNG)
+
 
 ## Task 4
-Write a T-SQL instruction, that will increase the marks of all group-leads with one point
-
-Code:
-
-```
-UPDATE studenti_reusita 
-SET Nota += 1 WHERE Nota < 10 AND Id_Student IN (SELECT Sef_grupa FROM grupe)
-SELECT * 
-FROM studenti_reusita
-
-```
-
-Result:
-
-## Task 5
 Write a T-SQL instruction, that will increase the marks of all group-leads with one point:
 
 ```
@@ -100,7 +94,7 @@ WHERE Id_Student IN (SELECT Sef_grupa FROM grupe)
 Result:
 There are three Sef_grupa, because there are 3 groups. So the output will be the leaders' marks off all tests, exams etc (table is just to big).
 
-## Task 6
+## Task 5
 Create a table named "profesori_new", with columns: Id_Profesor, Nume_Profesor, Prenume_Profesor, Localitate, Adresa_1, Adresa_2
 
 1. Id_Profesor - primary key, CLUSTERED
@@ -154,6 +148,11 @@ FROM profesori
 
 Result: 
 
+![five](https://user-images.githubusercontent.com/24621285/49031298-2c32f100-f16f-11e8-9658-8af82c3cdac8.PNG)
+
+
+
+
 ## Task 6
 Insert the next data in "orar" table, for the group CIB171, with Id_Group = 1, for Monday. 
 All lessons will take place in studies block 'B' 
@@ -180,7 +179,9 @@ SELECT *
 FROM orarul
 ```
 
-RESULT:
+Result:
+
+![six](https://user-images.githubusercontent.com/24621285/49031293-2b9a5a80-f16f-11e8-9118-513945132d31.PNG)
 
 
 ## Task 7
@@ -214,7 +215,10 @@ VALUES (
 SELECT * 
 FROM orarul
 ```
-Result;
+Result:
+
+![seven](https://user-images.githubusercontent.com/24621285/49031290-2b01c400-f16f-11e8-9832-d62c926b2038.PNG)
+
 
 
 ## Task 8
