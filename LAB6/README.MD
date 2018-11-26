@@ -221,11 +221,4 @@ Result:
 
 
 
-## Task 8
-Write the queries necessary for creating te indexes on tables from "University" database to ensure a higher performance to the queries from laboratory work number 4. Analyse the results.The indexes must be physically placed into userdatafgroup file group.
-```
-
-```
-
-
 
