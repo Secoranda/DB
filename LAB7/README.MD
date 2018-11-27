@@ -14,6 +14,28 @@ Diagrams, Schemes and Synonyms.
 
 Result:
 
+Task 4:
+![four1](https://user-images.githubusercontent.com/24621285/49070101-8dbc9380-f233-11e8-839c-471aa79e5907.PNG)
+![four2](https://user-images.githubusercontent.com/24621285/49070214-cf4d3e80-f233-11e8-8921-b08fa63d82c8.PNG)
+
+Task 5:
+
+![five](https://user-images.githubusercontent.com/24621285/49070256-ebe97680-f233-11e8-9946-587927a63a9c.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Task 6
 Create 3 new schemas in the universitatea database: cadre_didactice, plan_studii and studenti. Transfer the table profesori to the schema cadre_didactice, tables orarul, discipline to the schema plan_studii, and the tables studenti, studenti_reusita to the schema studenti
@@ -28,7 +50,16 @@ ALTER SCHEMA studenti TRANSFER dbo.studenti_reusita
  ```
  
  Result:
- 
+ ![six](https://user-images.githubusercontent.com/24621285/49069971-40d8bd00-f233-11e8-9c82-3e73920f96ad.PNG)
+
+
+
+
+
+
+
+
+
  ## Task 7
  Modify 3 querries from the 4th lab with renamed table names.
  
@@ -75,3 +106,14 @@ GROUP BY Disciplina HAVING AVG(Nota) > 7.0
 ORDER BY Disciplina
    ```
 Result:
+
+![eight1](https://user-images.githubusercontent.com/24621285/49069976-42a28080-f233-11e8-9bcc-5a2283fc6e56.PNG)
+
+
+
+
+
+
+
+
+
