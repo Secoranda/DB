@@ -50,6 +50,7 @@ ALTER SCHEMA studenti TRANSFER dbo.studenti_reusita
  ```
  
  Result:
+ 
  ![six](https://user-images.githubusercontent.com/24621285/49069971-40d8bd00-f233-11e8-9c82-3e73920f96ad.PNG)
 
 
