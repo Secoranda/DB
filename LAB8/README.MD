@@ -74,7 +74,7 @@ Result:
 
 *Delete*
 
-##Task 3
+## Task 3
 Write the SQL statements that would change the views created (in exercise 1) in such a way that it is not possible to modify or delete the tables on which they are defined and the views not accept DML operations if the WHERE clause is not satisfied.
 
 Query:
@@ -111,7 +111,7 @@ GO
 Comments: "WITH SCHEMABINDING " is used to prevent the error of a view table in case initial tables are modified and WITH CHECK OPTION
 we prevent DML operations related to WHERE clause state.
 
-##Task 4
+## Task 4
 Write the test instructions for newly defined properties.
 
 Query:
@@ -137,7 +137,7 @@ Result:
 ![4 1](https://user-images.githubusercontent.com/24621285/49341825-92ca7a00-f65b-11e8-8789-878d971e8426.PNG)
 ![4 2](https://user-images.githubusercontent.com/24621285/49341826-92ca7a00-f65b-11e8-8edc-9386f0b3a154.PNG)
 
-##Task 5
+## Task 5
 Write 2 exercises from Chapter 4, in the same way, that the nested queries to be rendered in the form of CTE expressions.
 
 Query:
@@ -164,7 +164,7 @@ ORDER BY Disciplina DESC;
 
 Result: Same output as in Task1
 
-##Task 6
+## Task 6
 It is considered an oriented graph, as shown in the figure below, and you may want to go through the path
 from node id = 3 at the node where id = 0. Make the representation of the graph in the form of expression-recursive table.
 Note the instruction after UNION ALL of the recursive member, as well as the part up to UNION ALL represented by the anchor member.
@@ -204,4 +204,5 @@ ORDER BY depth ASC;
 ```
 
 Result:
+
 ![output](https://user-images.githubusercontent.com/24621285/49341873-2f8d1780-f65c-11e8-9201-1abb31664b1d.PNG)
