@@ -18,6 +18,10 @@ BACKUP DATABASE universitatea
 TO TASK1 WITH FORMAT, NAME = N'universtitatea-Full Database backup'
 GO
 ```
+OUTPUT:
+
+![task1](https://user-images.githubusercontent.com/24621285/49750859-a5c0f800-fcb4-11e8-8eb5-07650f8ec77c.PNG)
+
 
 ## Task 2
 
@@ -33,6 +37,11 @@ GO
 
 ```
 
+OUTPUT:
+
+![task2](https://user-images.githubusercontent.com/24621285/49750856-a5286180-fcb4-11e8-8750-c34b86b3cf82.PNG)
+
+
 ## Task 3
 Write the instruction for a backup of the university's database transaction log. The backup file is called the exercitiul3.bak.
 
@@ -44,7 +53,11 @@ GO
 BACKUP LOG universitatea TO backup_Log
 GO
 ```
+OUTPUT:
 
+
+![task3](https://user-images.githubusercontent.com/24621285/49750857-a5c0f800-fcb4-11e8-8288-f29fcc8b3af4.PNG)
+ 
 ## Task 4
 Perform the consecutive restoration of all backup copies created. Recovery must be done in a new university_labll database. . The new database files are in the BD_labll folder. Write the respective SQL statements
 
