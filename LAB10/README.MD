@@ -29,6 +29,11 @@ CREATE TRIGGER  inreg_n2  ON plan_studii.orarul
 	END
 GO
 ```
+OUTPUT:
+
+![task1](https://user-images.githubusercontent.com/24621285/49704808-8c6e6c00-fc20-11e8-8fdf-0040d2e9b690.PNG)
+
+
 
 ## Task 2
 Create the trigger, which would ensure the correct (consecutive) population success of the students and students_reusita tables, and would allow the avoidance of key errors.
@@ -84,6 +89,10 @@ AS
 	END
 GO
 ```
+OUTPUT:
+
+![tsk2](https://user-images.githubusercontent.com/24621285/49704812-8d070280-fc20-11e8-9b17-50134d6f1b6f.PNG)
+
 
 ## Task 3
 Create a trigger that would prohibit lowering scores in the student_reusita table and changing values in the Values_Data field, where the values in this field are null. The trigger must only be launched if the data of students in group "CIB 1 71" are affected. A warning message will be displayed in case of an attempt to violate the constraint.
@@ -129,6 +138,14 @@ BEGIN
 	END
 GO   
  ```
+ 
+ OUTPUT:
+ ![3 1](https://user-images.githubusercontent.com/24621285/49704807-8c6e6c00-fc20-11e8-9194-afc5af5f75b9.PNG)
+![task3 0](https://user-images.githubusercontent.com/24621285/49704809-8d070280-fc20-11e8-9872-0d33d547063f.PNG)
+![task3](https://user-images.githubusercontent.com/24621285/49704810-8d070280-fc20-11e8-83e8-30b59d0ef8dc.PNG)
+
+
+
  ## Task 4
  Create a DDL trigger that would prohibit modifying the ld_Disciplinary column in the university table tables with the message display.
  
@@ -169,7 +186,11 @@ BEGIN
 	ROLLBACK
 END
  ```
+ OUTPUT:
  
+
+![task5](https://user-images.githubusercontent.com/24621285/49704838-ca6b9000-fc20-11e8-95ee-ad4bac8b582c.PNG)
+
  ## Task 6
  Create a DDL trigger that, when changing the properties of the ld_Professor column in a table, would make similar changes automatically in the rest of the tables.
  
