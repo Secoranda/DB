@@ -2,7 +2,8 @@
 # Laboratory Nr.11
 
 ## Objectives
-CREATING AND USING TRIGGERS
+
+DATABASE RECOVERY 
 
 ## Task 1
 
