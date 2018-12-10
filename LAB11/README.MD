@@ -11,7 +11,7 @@ Create a Backup_labll file. Complete a full database backup of the university in
 
 QUERRY:
 ```
-EXEC sp_addumpdevice 'DISK', 'TASK1', 'C:\Users\User\Desktop\LAB11\exercitiul1.bak'
+EXEC sp_addumpdevice 'DISK', 'TASK1', 'C:\Users\Daniela\Desktop\LAB11\exercitiul1.bak'
 GO
 
 BACKUP DATABASE universitatea
@@ -29,7 +29,7 @@ Write the instruction for a differential backup of the university database. The 
 
 QUERRY:
 ```
-EXEC sp_addumpdevice 'DISK', 'TASK2','C:\Users\User\Desktop\LAB11\exercitiul2.bak'
+EXEC sp_addumpdevice 'DISK', 'TASK2','C:\Users\Daniela\Desktop\LAB11\exercitiul2.bak'
 GO 
 BACKUP DATABASE universitatea
 TO TASK2 WITH FORMAT, NAME = N'universitatea-Differential Database Backup'
@@ -47,7 +47,7 @@ Write the instruction for a backup of the university's database transaction log.
 
 QUERRY:
 ```
-EXEC sp_addumpdevice 'DISK', 'backup_Log', 'C:\Users\User\Desktop\LAB11\exercitiul3.bak'
+EXEC sp_addumpdevice 'DISK', 'backup_Log', 'C:\Users\Daniela\Desktop\LAB11\exercitiul3.bak'
 
 GO
 BACKUP LOG universitatea TO backup_Log
@@ -67,17 +67,17 @@ IF EXISTS (SELECT * FROM master.sys.databases WHERE name='universitatea_lab11')
 DROP DATABASE universitatea_lab11;
 GO
   RESTORE DATABASE universitatea_lab11
-  FROM DISK = 'C:\Users\User\Desktop\LAB11\exercitiul1.bak'
-  WITH MOVE 'universitatea' TO 'C:\Users\User\Desktop\LAB11\BD_lab11\data.mdf',
-  MOVE 'universitatea_log' TO 'C:\Users\User\Desktop\LAB11\BD_lab11\log.ldf',
+  FROM DISK = 'C:\Users\Daniela\Desktop\LAB11\exercitiul1.bak'
+  WITH MOVE 'universitatea' TO 'C:\Users\Daniela\Desktop\LAB11\BD_lab11\data.mdf',
+  MOVE 'universitatea_log' TO 'C:\Users\Daniela\Desktop\LAB11\BD_lab11\log.ldf',
   NORECOVERY
 GO
   RESTORE LOG universitatea_lab11
-  FROM DISK = 'C:\Users\User\Desktop\LAB11\exercitiul3.bak'
+  FROM DISK = 'C:\Users\Daniela\Desktop\LAB11\exercitiul3.bak'
   WITH NORECOVERY
 GO
 RESTORE DATABASE universitatea_lab11
-  FROM DISK = 'C:\Users\User\Desktop\LAB11\exercitiul2.bak'
+  FROM DISK = 'C:\Users\Daniela\Desktop\LAB11\exercitiul2.bak'
   WITH 
   NORECOVERY
 GO
@@ -85,3 +85,6 @@ GO
 ![task4 1](https://user-images.githubusercontent.com/24621285/49751835-2ed92e80-fcb7-11e8-86e8-6aa170dde0fd.PNG)
 ![task4 2](https://user-images.githubusercontent.com/24621285/49751836-2ed92e80-fcb7-11e8-9772-cb504b5f7135.PNG)
 ![tsk4 3](https://user-images.githubusercontent.com/24621285/49751837-2f71c500-fcb7-11e8-865d-21eca3ee3abd.PNG)
+
+![taskss](https://user-images.githubusercontent.com/24621285/49751928-72cc3380-fcb7-11e8-9f38-58ec676bde75.PNG)
+
